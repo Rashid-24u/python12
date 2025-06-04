@@ -11,11 +11,11 @@
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>...Right half
 
-n=5
-for i in range(0,n):
-    for j in range(0,i+1):
-        print("* ",end="")
-    print()  
+# n=5
+# for i in range(0,n):
+#     for j in range(0,i+1):
+#         print("* ",end="")
+#     print()  
 # # 
 
 
@@ -31,13 +31,13 @@ for i in range(0,n):
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>....Left Half
-n=5
-for i in range(0,n):
-    for j in range(0,n-i):
-        print(" ",end="")
-    for k in range(0,i+1):
-        print("*",end="")
-    print() 
+# n=5
+# for i in range(0,n):
+#     for j in range(0,n-i):
+#         print(" ",end="")
+#     for k in range(0,i+1):
+#         print("*",end="")
+#     print() 
 
 
 
@@ -203,23 +203,31 @@ for i in range(0,n):
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..................Hollow DIAMOND pyramid
-n=4
+# n=4
+# for i in range(0,n):
+#     for j in range(0,n-i):
+#            print(" ",end="")
+#     for k in range(0,i+1):  
+#         if k==0 or k==i:
+#             print("* ",end="")
+#         else:
+#              print(" ",end=" ")    
+#     print()  
+# for a in range(0,n-1):
+#     for j in range(0,a+2):
+#         print(" ",end="")
+#     for k in range(0,n-a-1):
+#         if k==0 or k==n-a-2:
+#           print("* ",end="")
+#         else:
+#              print(" ",end=" ")   
+#     print()  
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>............................Pascal
+n=5
 for i in range(0,n):
     for j in range(0,n-i):
-           print(" ",end="")
-    for k in range(0,i+1):  
-        if k==0 or k==i:
-            print("* ",end="")
-        else:
-             print(" ",end=" ")    
-    print()  
-for a in range(0,n-1):
-    for j in range(0,a+2):
         print(" ",end="")
-    for k in range(0,n-a-1):
-        if k==0 or k==n-a-2:
-          print("* ",end="")
-        else:
-             print(" ",end=" ")   
-    print()  
-
+    for k in range(0,i+1):
+        print("1 ",end="")
+    print() 
