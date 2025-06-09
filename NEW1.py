@@ -46,7 +46,7 @@ if option == 1:
                 for i in Library:
                     if i[0] == b_id:
                         Library.remove(i)
-                        print("Book Deleted Successfully!")
+                        print("Book Deleted Successfully")
                         break
                 else:
                     print("Book id not found.")
