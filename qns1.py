@@ -75,6 +75,12 @@
 # 6.Print characters at even indices Input a string and 
 # use a for loop to print characters at even positions (index 0, 2, 4, …).
 
+# str=input("Enter a character:")
+# b=""
+# for i in range(0,len(str),2):
+#     b=b+' '+(str[i])
+# print(b)
+
 
 
 # 
@@ -86,26 +92,26 @@
 
 #   7 . Find common elements in two lists Input two lists and use a for loop to print elements present in both.
 
-# list1 =(input("Enter elements of first list: "))
-# list2 =(input("Enter elements of second list: "))
-# common=[]
-# for i in list1:
-#     if i in list2:
-#         common.append(i)
-# print("Common elements are:",common)
+list1 =(input("Enter elements of first list: "))
+list2 =(input("Enter elements of second list: "))
+common=[]
+for i in list1:
+    if i in list2:
+        common.append(i)
+print("Common elements are:",common)
 
 
 
 #  list comprehension ,(throwaway variable)
-list1=[input() for a in range(int(input("Enter number of elements of 1st list: ")))] 
-list2=[input() for a in range(int(input("Enter number of elements of 2nd list: ")))]
-print("First list:",list1)
-print("Second list:",list2)
-common=[]
-for item in list1:
-    if item in list2 and item not in common:
-        common.append(item)
-print("Common elements are:",common)
+# list1=[input() for a in range(int(input("Enter number of elements of 1st list: ")))] 
+# list2=[input() for a in range(int(input("Enter number of elements of 2nd list: ")))]
+# print("First list:",list1)
+# print("Second list:",list2)
+# common=[]
+# for item in list1:
+#     if item in list2 and item not in common:
+#         common.append(item)
+# print("Common elements are:",common)
   
 
 
