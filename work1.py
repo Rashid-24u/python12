@@ -209,4 +209,4 @@
 
 # letter_= lambda string: "True, bcz start with'A'" if string[0]=='A' or string[0]=='a' else "False"
 # str= input("Enter a String: ")
-# print("It is", letter_(str))         optn
+# print("It is", letter_(str))        

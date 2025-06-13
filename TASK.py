@@ -45,11 +45,36 @@
 
 #  task  8,2
 
-no=int(input("Enter a number: "))
-if no==0:
-    print("It is Zero")
-elif no>0:
-    print(no,"is Positive")
-else:
-    print(no,"is Negative")
+# no=int(input("Enter a number: "))
+# if no==0:
+#     print("It is Zero")
+# elif no>0:
+#     print(no,"is Positive")
+# else:
+#     print(no,"is Negative")
 
+# 9
+# n=5
+# for i in range(1,11):
+#     for j in range(1,n+1):
+#         a=i*j
+#         print(f"{i}*{j}={i*j}", end="\t")
+#     print()
+
+# task 15
+# Fav_food=['Biriyani','Porotta','Mandhi','Ice Cream','Shake']
+# for i in Fav_food:
+#     print(f'I Love eating {i}')
+
+# tsak 16,1
+# Squares= [i**2 for i in range(1, 11)]
+# print("squares of no.s",Squares)
+
+# 16,2
+# txt='Python Programming is fun!'
+# vowels=[char for char in txt if char in 'aeiouAEIOU']
+# print(vowels)
+
+# 16,3
+# number=[i for i in range(1,21) if i % 2==0]
+# print(number)
