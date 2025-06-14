@@ -39,18 +39,18 @@
 
 
 # operations
-day1={"a","b","c","d"}
-day2={"b","e","f"}
-print(day1|day2)
-
-day1={"a","b","c","d"}
-day2={"b","e","f"}
-print(day1&day2)
-
+# day1={"a","b","c","d"}
+# day2={"b","e","f"}
+# print(day1|day2)
 
 # day1={"a","b","c","d"}
-# day2={"b","c"}
-# day3={"b","c","f"}
-# print(day1>day2)
-# print(day1<day2)
-# print(day2==day3)
+# day2={"b","e","f"}
+# print(day1&day2)
+
+
+day1={"a","b","c","d"}
+day2={"b","c"}
+day3={"b","c","f"}
+print(day1>day2)
+print(day1<day2)
+print(day2==day3)
