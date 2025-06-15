@@ -211,6 +211,7 @@
 
 
 # >>>>>>>>...............................................tsk19
+# >.
 
 
 # weekdays=('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday')
@@ -237,3 +238,5 @@ print("Is s1 > s2 (s2 subset of s1)?", s1 > s2)
  # This checks if s2 is a subset of s1
 print(s1>s2)
 print(s1<s2)
+# >>>>.
+

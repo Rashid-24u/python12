@@ -177,11 +177,14 @@
 
 
                          #   ANONYMOUS Fn
-                                            # .......................
+                     # .......................
 
 # lambda_=lambda argument1,argument2:argument1+argument2
 # print("value of the fn is :",lambda_(20,30))
 # print("Value of the fn is :",lambda_(40,50))
+
+
+
 
 
 #1 . Write a lambda function to find the square of a number.
@@ -190,12 +193,21 @@
 # a=int(input("Enter a number:"))
 # print("The square is :",lambda_(a))
 
+
+# 
+
+# ....................
 #2 . Write a lambda function to check if a number is even or odd.
 
 # EVEN_NO= lambda n: "Even" if n % 2 == 0  else "Odd"
 # a= int(input("Enter a number: "))
 # print("The number is:",EVEN_NO(a))
 
+
+
+
+
+# >>
 
 #3 . Write a lambda function to find the maximum of two numbers
 
@@ -205,6 +217,12 @@
 # print("The greater number is:", max_num(n1,2))
 # 
 
+
+
+
+
+
+# 
 #4 . Write a lambda function to check if a string starts with the letter 'A'
 
 # letter_= lambda string: "True, bcz start with'A'" if string[0]=='A' or string[0]=='a' else "False"

@@ -1,19 +1,22 @@
 # 1. With argument, with return type
 # Q1. Write a function that takes a number as an argument and returns its square.
 
+
 # def square(num):
 #     return num ** 2
 # result=square(int(input("Enter the no:")))
 # print("square:",result)
 
+
 # Q2. Write a function that takes two numbers and returns their sum.
 
 # def SUM(n1,n2):
 #     return(n1+n2)
-
 # a=int(input("Enter the 1st number:"))
 # b=int(input("Enter the 2nd number:"))
 # print(SUM(a,b))
+
+
 
 
 # Q3. Write a function that takes a string and returns it in uppercase.
@@ -23,6 +26,9 @@
 #     return txt
 # a=input("enter a word :")
 # print(uppercase(a))
+
+
+
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
 
@@ -34,6 +40,8 @@
 # greet("Ridhu") 
 
 
+
+
 # Q5. Write a function that takes two numbers and prints their multiplication.
 
 # def multiplication(a,b):
@@ -42,6 +50,8 @@
 # a=int(input("Enter 1st no :"))
 # b=int(input("Enter 2nd no :"))
 # multiplication(a,b)    
+
+
 
 # Q6. Write a function that takes a number and prints whether it is even or odd.
 
@@ -54,10 +64,15 @@
 # Even_Odd(a) 
 # 
 
+
+
  #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>....
  # 
  #  3. Without argument, with return type
 # Q7. Write a function that returns the current year.
+
+
+
 
 # def current_year():
 #     year =2025
@@ -74,6 +89,8 @@
 #     return message
 # msg =wel_msg()
 # print(msg)
+
+
 
 # Q9. Write a function that returns the value of 5 factorial (5!).
    
@@ -95,6 +112,9 @@
 # def print_name():
 #     print("Rashid")
 # print_name()
+
+
+
 
 # Q11. Write a function that prints numbers from 1 to 10.
 

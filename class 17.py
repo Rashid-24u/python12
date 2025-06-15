@@ -25,6 +25,8 @@
                                                 #   ANONYMOUS Fn
                                             # .......................
 
+
+# 
 # lambda_=lambda argument1,argument2:argument1+argument2
 # print("value of the fn is :",lambda_(20,30))
 # print("Value of the fn is :",lambda_(40,50))
@@ -38,7 +40,7 @@
 #                      python fn within another fn
 #                  ..................................
 
-
+# 
 # def word():
 #     string='python fn tutorials'
 #     x=5
