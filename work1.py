@@ -75,45 +75,45 @@
 #  e) Exit
 #      (Use functions for each operation.)
 
-# def add(a,b):
-#     return a+b
+def add(a,b):
+    return a+b
 
-# def sub(a,b):
-#     return a-b
+def sub(a,b):
+    return a-b
 
-# def mul(a,b):
-#     return a*b
+def mul(a,b):
+    return a*b
 
-# def div(a,b):
-#     if b!=0:
-#         return a/b
-#     else:
-#         print("Cannot divide by zero")
+def div(a,b):
+    if b!=0:
+        return a/b
+    else:
+        print("Cannot divide by zero")
 
-# def menu():
-#     while True:
-#         print("\nMENU:")
-#         print("1.ADD")
-#         print("2.SUBTRACT")
-#         print("3.MULTIPLY")
-#         print("4.DIVIDE")
-#         optn=int(input("Enter your choice:"))
+def menu():
+    while True:
+        print("\nMENU:")
+        print("1.ADD")
+        print("2.SUBTRACT")
+        print("3.MULTIPLY")
+        print("4.DIVIDE")
+        optn=int(input("Enter your choice :"))
 
-#         a=int(input("Enter 1st number:"))
-#         b=int(input("Enter 2nd number:"))
+        a=int(input("Enter 1st number:"))
+        b=int(input("Enter 2nd number:"))
 
-#         if  optn== 1:
-#             print("Result:",add(a,b))
-#         elif  optn== 2:
-#             print("Result:",sub(a,b))
-#         elif  optn== 3:
-#             print("Result:",mul(a,b))
-#         elif  optn== 4:
-#             print("Result:",div(a,b))
-#         else:
-#             print("Enter a valid choice!")
+        if  optn==1:
+            print("Result:",add(a,b))
+        elif  optn==2:
+            print("Result:",sub(a,b))
+        elif  optn==3:
+            print("Result:",mul(a,b))
+        elif  optn==4:
+            print("Result:",div(a,b))
+        else:
+            print("Enter a valid choice!")
 
-# menu()     
+menu()     
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -141,7 +141,7 @@
 # def print_num(no):
 #     if no != 0:
 #         print(no)
-#         print_num(no - 1)
+#         print_num(no-1)
 # n1=int(input("Enter a number:"))
 # print_num(n1)
 
@@ -170,6 +170,12 @@
 
 # def reverse(strg):
 
+# def reverse(str):
+#     if len(str)==0:
+#         return str
+#     return reverse(str[1:])+str[0]
+# text=input("enter the text :")
+# print("Reverse string:",reverse(text))
 
 
 
