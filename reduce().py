@@ -81,11 +81,11 @@
 
 # 🔹 Example 3: Find maximum
 
-# from functools import reduce
+from functools import reduce
 
-# numbers = [3, 5, 2, 8, 1]
-# maximum = reduce(lambda a, b: a if a > b else b, numbers)
-# print(maximum) 
+numbers = [3, 5, 2, 8, 1]
+maximum = reduce(lambda a, b: a if a > b else b, numbers)
+print(maximum) 
 
 #  # Output: 8
 
@@ -110,4 +110,33 @@ print(maximum)  # Output: 8
 
 
 
+
+
+# ........................................................................................................
+
+# 1️⃣ Using reduce() with a Tuple
+
+# from functools import reduce
+
+# numbers = (2, 3, 4)  # This is a tuple
+# result = reduce(lambda x, y: x * y, numbers)
+# print(result)                                             # Output: 24 (2 * 3 * 4)
+
+
+# 2️⃣ Using reduce() with a Set
+
+# from functools import reduce
+
+# numbers = {5, 2, 3}  # This is a set
+# result = reduce(lambda x, y: x + y, numbers)
+# print(result)                                             # Output: 10 (but order may vary)
+
+
+# 3️⃣ Using reduce() with a String
+
+# from functools import reduce
+
+# chars = ["P", "y", "t", "h", "o", "n"]
+# result = reduce(lambda x, y: x + y, chars)
+# print(result)                                                          # Output: "Python"
 
