@@ -1,6 +1,6 @@
 # f=open('file123.py','x')                  # file creating
 
-# file=open('file123.py','r')               #read full
+# file=open('file123.py','r')               # read full
 # for each in file:
 #     print(each)
 
@@ -19,7 +19,7 @@
 
 
 # file=open('file123.py','r')
-# print(file.read(5))                       #read character wise
+# print(file.read(5))                       # read character wise
 
 
 
