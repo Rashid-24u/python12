@@ -92,12 +92,12 @@ class Bike(Vehicle):
 class Car(Vehicle):
     def show_car(self):
         print("This is a car")
-class Intern(Bike,Car):
-    def show_intern(self):
-        print("This is an intern vehicle.")
-i = Intern()
+class Road(Bike,Car):
+    def move(self):
+        print("The vehicles are moving on the road.")
+i=Road()
 
 i.display()         
 i.show_bike()    
 i.show_car()   
-i.show_intern()     
+i.move()     
