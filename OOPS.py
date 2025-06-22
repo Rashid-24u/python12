@@ -158,27 +158,83 @@
 
 #5 . Create a class BankAccount with attributes account_holder and balance.Add methods to deposit, withdraw, and check balance.
 
-class Bank_Acc:
-    def __init__(self,account_holder,balance):
-        self.account_holder=account_holder
-        self.balance=balance
-        print("Account holder:",self.account_holder) 
+# class Bank_Acc:
+#     def __init__(self,account_holder,balance):
+#         self.account_holder=account_holder
+#         self.balance=balance
+#         print("Account holder:",self.account_holder) 
     
-    def deposit(self,amount):
-        self.balance +=amount 
-        print(amount,"deposited.  " "  New balance:",self.balance) 
+#     def deposit(self,amount):
+#         self.balance +=amount 
+#         print(amount,"deposited.  " "  New balance:",self.balance) 
 
-    def withdraw(self,amount):
-        if amount>self.balance:
-            print("Insufficient balance.")
+#     def withdraw(self,amount):
+#         if amount>self.balance:
+#             print("Insufficient balance.")
+#         else:
+#             self.balance -= amount
+#             print(amount, "withdrawn.  New balance:", self.balance)    
+
+#     def check_balance(self):
+#         print("Current balance:",self.balance) 
+
+# b1=Bank_Acc("Rashid",0)      
+# b1.deposit(500)
+# b1.withdraw(200) 
+# b1.check_balance()     
+
+
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+class BankAccount:
+    def __init__(self, account_holder, balance=0):
+        self.account_holder = account_holder
+        self.balance = balance
+        print("Account created for:", self.account_holder)
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.balance += amount
+            print(f"{amount} deposited. New balance: {self.balance}")
         else:
+            print("Deposit amount must be positive.")
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
             self.balance -= amount
-            print(amount, "withdrawn.  New balance:", self.balance)    
+            print(f"{amount} withdrawn. Remaining balance: {self.balance}")
+        else:
+            print("Insufficient balance.")
 
     def check_balance(self):
-        print("Current balance:",self.balance) 
+        print(f"Current balance: {self.balance}")
 
-b1=Bank_Acc("Rashid",0)      
-b1.deposit(500)
-b1.withdraw(200) 
-b1.check_balance()        
+
+name= input("Enter account holder name: ")
+account= BankAccount(name)
+
+while True:
+    print("\n--- Bank Menu ---")
+    print("1. Deposit")
+    print("2. Withdraw")
+    print("3. Check Balance")
+    print("4. Exit")
+
+    choice= input("Enter your choice (1-4): ")
+
+    if choice== "1":
+        amt =int(input("Enter amount to deposit: "))
+        account.deposit(amt)
+    elif choice== "2":
+        amt=int(input("Enter amount to withdraw: "))
+        account.withdraw(amt)
+    elif choice== "3":
+        account.check_balance()
+    elif choice== "4":
+        print("Thank you!")
+        break
+    else:
+        print("Invalid choice.")
