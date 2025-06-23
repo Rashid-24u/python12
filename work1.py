@@ -75,45 +75,45 @@
 #  e) Exit
 #      (Use functions for each operation.)
 
-def add(a,b):
-    return a+b
+# def add(a,b):
+#     return a+b
 
-def sub(a,b):
-    return a-b
+# def sub(a,b):
+#     return a-b
 
-def mul(a,b):
-    return a*b
+# def mul(a,b):
+#     return a*b
 
-def div(a,b):
-    if b!=0:
-        return a/b
-    else:
-        print("Cannot divide by zero")
+# def div(a,b):
+#     if b!=0:
+#         return a/b
+#     else:
+#         print("Cannot divide by zero")
 
-def menu():
-    while True:
-        print("\nMENU:")
-        print("1.ADD")
-        print("2.SUBTRACT")
-        print("3.MULTIPLY")
-        print("4.DIVIDE")
-        optn=int(input("Enter your choice :"))
+# def menu():
+#     while True:
+#         print("\nMENU:")
+#         print("1.ADD")
+#         print("2.SUBTRACT")
+#         print("3.MULTIPLY")
+#         print("4.DIVIDE")
+#         optn=int(input("Enter your choice :"))
 
-        a=int(input("Enter 1st number:"))
-        b=int(input("Enter 2nd number:"))
+#         a=int(input("Enter 1st number:"))
+#         b=int(input("Enter 2nd number:"))
 
-        if  optn==1:
-            print("Result:",add(a,b))
-        elif  optn==2:
-            print("Result:",sub(a,b))
-        elif  optn==3:
-            print("Result:",mul(a,b))
-        elif  optn==4:
-            print("Result:",div(a,b))
-        else:
-            print("Enter a valid choice!")
+#         if  optn==1:
+#             print("Result:",add(a,b))
+#         elif  optn==2:
+#             print("Result:",sub(a,b))
+#         elif  optn==3:
+#             print("Result:",mul(a,b))
+#         elif  optn==4:
+#             print("Result:",div(a,b))
+#         else:
+#             print("Enter a valid choice!")
 
-menu()     
+# menu()     
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -234,3 +234,41 @@ menu()
 # letter_= lambda string: "True, bcz start with'A'" if string[0]=='A' or string[0]=='a' else "False"
 # str= input("Enter a String: ")
 # print("It is", letter_(str))        
+
+
+
+
+
+
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.>
+
+# string= input("Enter the string: ")
+# a=len(string)
+
+# if 1 <= a <= 10**5:
+#     print("input string is",string)
+#     for ch in range(a):
+#         count=string.count(string[ch])
+#         if count == 1:
+#             print("First unique character:", string[ch])
+#             print("index :",ch)
+#             break
+#     else:
+#         print("-1")
+# else:
+#     print("Enter string of valid length")
+
+       
+
+
+
+
+
+
+
+
+
