@@ -266,6 +266,27 @@
 
 
 
+a= [4,3,5,77,94]
+b=[]
+
+for i in a:
+    if i > 0:
+        b.append(i)
+
+c = 1
+while True:
+    if c not in b:
+        print("First missing positive:", c)
+        break
+    c += 1
+
+
+
+
+
+
+
+
 
 
 
